@@ -60,12 +60,6 @@ export const services = [
     image: "/restauracion de agua 1.png"
   },
   {
-    title: "Emergency Water Extraction",
-    description:
-      "Emergency extraction and mitigation for active leaks and flooding situations requiring immediate stabilization.",
-    image: "/restaruacion de agua 2.png"
-  },
-  {
     title: "Structural Drying & Recovery",
     description:
       "Comprehensive drying and recovery services to restore structural materials after significant water intrusion.",
