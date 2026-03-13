@@ -37,14 +37,14 @@ export default function Footer() {
 
                     {/* Column 2: Services */}
                     <div className="footer-col">
-                        <h4>Our Services</h4>
-                        <ul className="footer-list">
-                            {config.services.map((service, i) => (
-                                <li key={i}>
-                                    <Link to="services" className="footer-link" smooth={true} duration={500}>{service.name}</Link>
-                                </li>
-                            ))}
-                        </ul>
+                            <h4>Our Services</h4>
+                            <ul className="footer-list">
+                                {config.services.map((service, i) => (
+                                    <li key={i}>
+                                    <Link to="services" className="footer-link" smooth={true} duration={500}>{service.title}</Link>
+                                    </li>
+                                ))}
+                            </ul>
                     </div>
 
                     {/* Column 3: Company Links */}

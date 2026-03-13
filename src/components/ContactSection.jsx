@@ -54,7 +54,7 @@ Message: ${message}`;
                                 <select required onChange={(e) => setService(e.target.value)}>
                                     <option value="">Select a Service</option>
                                     {config.services.map((s, i) => (
-                                        <option key={i} value={s.name}>{s.name}</option>
+                                        <option key={i} value={s.title}>{s.title}</option>
                                     ))}
                                 </select>
                             </div>

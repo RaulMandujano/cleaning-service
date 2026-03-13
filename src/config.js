@@ -1,3 +1,5 @@
+import { services } from "./data/services";
+
 const config = {
   companyName: "First Responders",
   whatsappNumber: "15716055992",
@@ -31,44 +33,7 @@ const config = {
     experienceStat: "15+ Years Experience"
   },
 
-  services: [
-    {
-      name: "Hoarding Cleanup",
-      description: "Compassionate, discreet cleanup for heavily cluttered spaces, debris removal, and full sanitization.",
-      image: "/acaparamiento.png",
-      icon: "📦"
-    },
-    {
-      name: "Mold Remediation",
-      description: "Certified containment, removal, and prevention of mold growth with safe remediation methods.",
-      image: "/remodelación de moho.png",
-      icon: "🍄"
-    },
-    {
-      name: "Water Damage Restoration",
-      description: "Rapid drying, cleanup, and restoration after leaks, flooding, and emergency water intrusion.",
-      image: "/restauracion de agua 1.png",
-      icon: "💧"
-    },
-    {
-      name: "Pressure Washing",
-      description: "Exterior cleaning for concrete, siding, patios, driveways, and other weather-exposed surfaces.",
-      image: "/lavado a presion 1.png",
-      icon: "🚿"
-    },
-    {
-      name: "Pest Infestation Cleanup",
-      description: "Deep cleaning and sanitization after rodent and pest infestations to restore a safe environment.",
-      image: "/infestaciones de roedores.png",
-      icon: "🐀"
-    },
-    {
-      name: "Waterproofing",
-      description: "Moisture-control and protective sealing solutions that help prevent leaks and long-term damage.",
-      image: "/impermeabilizacion.png",
-      icon: "🛡️"
-    }
-  ],
+  services,
 
   emergency: {
     title: "Need Emergency Mold Removal?",

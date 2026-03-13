@@ -35,7 +35,7 @@ Message: ${message}`;
                         <select className="form-input" onChange={(e) => setService(e.target.value)}>
                             <option>Select Service</option>
                             {config.services.map((s, i) => (
-                                <option key={i}>{s.name}</option>
+                                <option key={i}>{s.title}</option>
                             ))}
                         </select>
                     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import config from "../config";
+import { services } from "../data/services";
 
 export default function Services() {
     return (
@@ -11,20 +11,17 @@ export default function Services() {
                 </div>
 
                 <div className="services-grid">
-                    {config.services.map((service, index) => (
+                    {services.map((service, index) => (
                         <div key={index} className="service-card">
                             <div className="service-image-wrap">
                                 <img
                                     src={service.image}
-                                    alt={service.name}
+                                    alt={service.title}
                                     className="service-image"
                                 />
                             </div>
                             <div className="service-card-body">
-                                <div className="service-icon-box">
-                                    <span className="service-icon">{service.icon}</span>
-                                </div>
-                                <h3 className="service-title">{service.name}</h3>
+                                <h3 className="service-title">{service.title}</h3>
                                 <p className="service-description">{service.description}</p>
                             </div>
                         </div>
