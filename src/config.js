@@ -1,10 +1,10 @@
 const config = {
-  companyName: "Raise Cleaning Co.",
-  whatsappNumber: "18015551234",
-  phone: "1-801-555-1234",
-  email: "leon@cleaning.com",
-  address: "1234 Cleaning Way, Salt Lake City, UT 84101",
-  hours: "Mon - Fri: 8:00 AM - 6:00 PM",
+  companyName: "First Responders",
+  whatsappNumber: "15716055992",
+  phone: "+1 (571)605‑5992",
+  email: "rywfirstresponders@icloud.com",
+  address: "1925 inglebrook dr Woodbridge, VA 22192",
+  hours: "24/7",
 
   hero: {
     title: "Professional Mold Removal & Expert Cleaning Services",
@@ -33,22 +33,40 @@ const config = {
 
   services: [
     {
+      name: "Hoarding Cleanup",
+      description: "Compassionate, discreet cleanup for heavily cluttered spaces, debris removal, and full sanitization.",
+      image: "/acaparamiento.png",
+      icon: "📦"
+    },
+    {
       name: "Mold Remediation",
-      description: "Complete removal and prevention of mold spores using advanced HEPA filtration.",
-      image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
+      description: "Certified containment, removal, and prevention of mold growth with safe remediation methods.",
+      image: "/remodelación de moho.png",
       icon: "🍄"
     },
     {
-      name: "Deep Home Cleaning",
-      description: "Top-to-bottom sanitization using hospital-grade, eco-friendly cleaning agents.",
-      image: "https://images.unsplash.com/photo-1581578731548-c64695cc6954?auto=format&fit=crop&q=80&w=800",
-      icon: "🧹"
+      name: "Water Damage Restoration",
+      description: "Rapid drying, cleanup, and restoration after leaks, flooding, and emergency water intrusion.",
+      image: "/restauracion de agua 1.png",
+      icon: "💧"
     },
     {
-      name: "Air Duct Cleaning",
-      description: "Improve indoor air quality by removing dust, allergens, and debris from your HVAC system.",
-      image: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&q=80&w=800",
-      icon: "💨"
+      name: "Pressure Washing",
+      description: "Exterior cleaning for concrete, siding, patios, driveways, and other weather-exposed surfaces.",
+      image: "/lavado a presion 1.png",
+      icon: "🚿"
+    },
+    {
+      name: "Pest Infestation Cleanup",
+      description: "Deep cleaning and sanitization after rodent and pest infestations to restore a safe environment.",
+      image: "/infestaciones de roedores.png",
+      icon: "🐀"
+    },
+    {
+      name: "Waterproofing",
+      description: "Moisture-control and protective sealing solutions that help prevent leaks and long-term damage.",
+      image: "/impermeabilizacion.png",
+      icon: "🛡️"
     }
   ],
 
@@ -107,37 +125,37 @@ const config = {
   testimonials: [
     {
       name: "Maria L.",
-      location: "Cottonwood Heights, UT",
+      location: "Arlington, VA",
       text: "The mold removal was fast and professional. I feel safe in my home again! Highly recommend their team.",
       stars: 5
     },
     {
       name: "John P.",
-      location: "Salt Lake City, UT",
+      location: "Alexandria, VA",
       text: "Amazing deep clean. The attention to detail is unmatched in this city. Every corner was spotless.",
       stars: 5
     },
     {
       name: "Sarah W.",
-      location: "Sandy, UT",
+      location: "Richmond, VA",
       text: "They handled our air duct cleaning perfectly. No mess left behind, just clean air!",
       stars: 5
     },
     {
       name: "Michael R.",
-      location: "Draper, UT",
+      location: "Virginia Beach, VA",
       text: "Prompt emergency response. They arrived within the hour and stabilized our mold issue immediately.",
       stars: 5
     },
     {
       name: "Emily S.",
-      location: "Murray, UT",
+      location: "Fairfax, VA",
       text: "The most thorough cleaning service I've ever used. Their team is polite and efficient.",
       stars: 5
     },
     {
       name: "David T.",
-      location: "South Jordan, UT",
+      location: "Norfolk, VA",
       text: "Transparent pricing and top-quality results. A truly professional team of experts.",
       stars: 5
     }

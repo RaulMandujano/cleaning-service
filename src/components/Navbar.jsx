@@ -5,12 +5,14 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <div className="container nav-content">
-                <div className="logo" onClick={() => window.scrollTo(0, 0)}>
-                    <img
-                        src="/bg-backgound.png"
-                        alt="logo"
-                        className="navbar-logo"
-                    />
+                <div className="logo" onClick={() => window.scrollTo(0, 0)} aria-label="Go to top">
+                    <div className="logo-image-wrap">
+                        <img
+                            src="/bg-logo.png"
+                            alt="First Responders logo"
+                            className="navbar-logo"
+                        />
+                    </div>
                 </div>
                 <div className="nav-links">
                     <Link to="services" smooth={true} duration={500} className="nav-link">

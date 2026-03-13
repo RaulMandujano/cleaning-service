@@ -13,11 +13,20 @@ export default function Services() {
                 <div className="services-grid">
                     {config.services.map((service, index) => (
                         <div key={index} className="service-card">
-                            <div className="service-icon-box">
-                                <span className="service-icon">{service.icon}</span>
+                            <div className="service-image-wrap">
+                                <img
+                                    src={service.image}
+                                    alt={service.name}
+                                    className="service-image"
+                                />
                             </div>
-                            <h3 className="service-title">{service.name}</h3>
-                            <p className="service-description">{service.description}</p>
+                            <div className="service-card-body">
+                                <div className="service-icon-box">
+                                    <span className="service-icon">{service.icon}</span>
+                                </div>
+                                <h3 className="service-title">{service.name}</h3>
+                                <p className="service-description">{service.description}</p>
+                            </div>
                         </div>
                     ))}
                 </div>

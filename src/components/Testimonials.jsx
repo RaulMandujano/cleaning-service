@@ -14,7 +14,7 @@ export default function Testimonials() {
                         <div className="rating-stars">
                             <FaStar /><FaStar /><FaStar /><FaStar /><FaStar />
                         </div>
-                        <span className="rating-value">4.8 / 5.0</span>
+                        <span className="rating-value">5.0 / 5.0</span>
                         <span className="rating-count">Professional Rating</span>
                     </div>
                 </div>

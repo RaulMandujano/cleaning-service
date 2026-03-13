@@ -46,8 +46,8 @@ export default function Hero() {
 
                 <div className="hero-image animate-fade-up" style={{ animationDelay: '0.2s' }}>
                     <img
-                        src="https://images.unsplash.com/photo-1584622781564-1d987f7333c1?auto=format&fit=crop&q=80&w=800"
-                        alt="Professional Cleaning"
+                        src="/limpieza profesional.png"
+                        alt="Professional restoration and cleaning service"
                     />
                     <div className="experience-card">
                         <div className="exp-icon">🏆</div>
