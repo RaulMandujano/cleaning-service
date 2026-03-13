@@ -20,7 +20,7 @@ export default function Footer() {
                     <div className="footer-col">
                         <h3 className="footer-logo-text">
                             <img
-                                src="/bg-backgound.png"
+                                src="/bg-logo.png"
                                 alt="company logo"
                                 className="footer-logo-img"
                             />

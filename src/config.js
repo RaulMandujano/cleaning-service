@@ -161,21 +161,6 @@ const config = {
     }
   ],
 
-  colors: {
-    primary: "#0f6a60",
-    primaryDark: "#0c524d",
-    secondary: "#b7b22b",
-    logoDark: "#6e5e47",
-    logoMid: "#958773",
-    logoLight: "#d8dee4",
-    logoLightest: "#edf0f5",
-    surface: "#ffffff",
-    logoText: "#2c2c28",
-    mutedText: "#5f5b4f",
-    gradientHero: "linear-gradient(145deg, rgba(110, 94, 71, 0.65), rgba(214, 219, 224, 0.95)), radial-gradient(circle at top right, rgba(214, 219, 224, 0.8), transparent 45%)",
-    sectionDivider: "rgba(110, 94, 71, 0.25)"
-  },
-
   footer: {
     description: "The trusted name in high-end mold removal and property restoration across the state. Dedicated to clean air and healthy homes since 2009.",
     links: [

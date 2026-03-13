@@ -10,15 +10,15 @@ export default function FinalCTA() {
         <section className="bg-white" style={{ padding: '0 0 100px 0' }}>
             <div className="container">
                 <div style={{
-                    background: 'var(--primary)',
+                    background: 'var(--color-dark)',
                     borderRadius: '24px',
                     display: 'grid',
                     gridTemplateColumns: '1.2fr 1fr',
                     overflow: 'hidden',
                     alignItems: 'center'
                 }}>
-                    <div style={{ padding: '60px', color: 'var(--white)' }}>
-                        <h2 style={{ color: 'var(--white)', fontSize: '2.5rem', marginBottom: '20px' }}>
+                    <div style={{ padding: '60px', color: 'var(--color-background)' }}>
+                        <h2 style={{ color: 'var(--color-background)', fontSize: '2.5rem', marginBottom: '20px' }}>
                             Ready to restore your home to its best state?
                         </h2>
                         <p style={{ marginBottom: '32px', opacity: 0.9, fontSize: '1.1rem' }}>
